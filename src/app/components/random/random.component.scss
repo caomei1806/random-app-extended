@@ -1,0 +1,55 @@
+$muted: rgb(116, 116, 116);
+$success: rgb(156, 187, 19);
+.randomWin {
+	background-color: $success !important;
+}
+.lost {
+	background-color: $muted !important;
+}
+.display-none {
+	opacity: 0;
+	pointer-events: none;
+}
+.cantRandom {
+	pointer-events: none;
+	opacity: 0.7;
+}
+.container,
+.randomElement {
+	border-radius: 4px;
+}
+.cardTitle {
+	width: 17%;
+	span {
+		font-family: "Roboto Slab";
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+.randomElements {
+	flex-wrap: wrap;
+	width: 70%;
+	.randomElement {
+		span {
+			font-size: 0.9rem;
+		}
+		button {
+			width: 1.5rem;
+			height: 1.5rem;
+			transition: all 0.3s ease;
+			i {
+				margin-left: -4px;
+				vertical-align: top;
+			}
+		}
+	}
+}
+.randomize {
+	button {
+		span {
+			display: inline-block;
+			font-size: 1rem;
+		}
+	}
+}

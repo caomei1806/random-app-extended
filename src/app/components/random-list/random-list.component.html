@@ -1,0 +1,7 @@
+<div class="container pt-5">
+	<app-random
+		*ngFor="let random of randomList"
+		[random]="random"
+		(emmit)="ngOnInit()"
+	></app-random>
+</div>

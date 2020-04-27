@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+$dark: #120136;
+$primary: #035aa6;
+$secondary: #40bad5;
+$info: #fcbf1e;
+$success: rgb(156, 187, 19);
+$danger: rgb(255, 0, 76);
+$muted: rgb(116, 116, 116);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/boxicons/css/boxicons.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+* {
+	font-family: "Manrope";
+}
+body {
+	background-color: rgb(231, 231, 231);
+}
